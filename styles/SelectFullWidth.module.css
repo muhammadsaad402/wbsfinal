@@ -1,0 +1,16 @@
+.drop_down div svg {
+  stroke: #fff;
+}
+
+.Select_full_width_form_control {
+  color: white;
+  border-style: solid;
+  /* border-color: #1p1p1p; */
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: #000;
+  stroke: #fff;
+}
+.Select_full_Select_color {
+  color: #fff;
+}

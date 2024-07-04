@@ -1,0 +1,366 @@
+.container {
+  /* padding: 0 2rem; */
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  opacity: 1;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.edit_profile_card_width_90 {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+  margin: auto;
+}
+/* .edit_profile_card_main_width_90 input {
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  background-color: transparent;
+  border-color: white;
+  padding-left: solid;
+  padding-left: 20px;
+  color: white;
+  font-size: 16px;
+} */
+.edit_profile_card_heading {
+  text-align: center;
+}
+.edit_profile_card_width_50 {
+  width: 50%;
+  background-color: #1b1b1b;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.edit_profile_main_container {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+  margin: auto;
+}
+.artist_profile_details_img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.artist_profile_details_width_90 {
+  width: 90%;
+}
+.artist_profile_details_width_90 h2 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  /* margin-bottom: 20px; */
+}
+.artist_profile_details_input_field {
+  width: 100%;
+  height: 45px;
+  border-radius: 8px !important;
+  border-color: white;
+  border-style: solid;
+  padding-left: 20px;
+  color: white;
+  font-size: 16px;
+  background-color: #000 !important;
+}
+.artist_profile_details_parent_input_field {
+  width: 100%;
+  height: 45px;
+  border-radius: 8px !important;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  font-size: 16px;
+  background-color: #000 !important;
+  display: flex;
+  align-items: center;
+}
+.artist_profile_details_parent_input_field > div {
+  width: 95% !important;
+  height: 100% !important;
+  outline: none !important;
+  border: none !important;
+}
+.artist_profile_details_parent_input_field > div div {
+  width: 100% !important;
+  height: 100% !important;
+  outline: none !important;
+  border: none !important;
+}
+.artist_profile_details_parent_input_field input {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 0 0 20px !important;
+  color: white !important;
+  font-size: 16px;
+  background-color: #000 !important;
+  outline: none !important;
+  border: none !important;
+}
+.artist_profile_details_parent_input_field button {
+  height: 100%;
+  width: 5%;
+  background: #b38206;
+  outline: none !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+.artist_profile_details_input_textarea {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  border-color: white;
+  border-style: solid;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  background-color: #000;
+}
+.artist_profile_details_button {
+  width: 280px;
+  height: 50px;
+  border-radius: 30px;
+  align-items: center;
+  background-color: #cea234;
+  color: #000;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  /* display: click; */
+}
+.artist_profile_details_height_20 {
+  height: 20px;
+}
+.artist_profile_details_select {
+  color: #fff;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+}
+.artist_profile_details_button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}
+.edit_profile_heading {
+  color: #cea234;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+.drop_down {
+  color: white;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.drop_down svg {
+  stroke: #fff;
+}
+
+/* EditPROFILECARD COMMPONENTS CSS*/
+
+.edit_profile_card_main {
+  width: 50%;
+  background-color: #1b1b1b;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.edit_profile_card_margintop_40 {
+  margin-top: 40px;
+}
+
+.edit_profile_card_img {
+  height: 80px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.edit_profile_card_input_file {
+  height: 45px;
+  border-radius: 8px;
+  background-color: transparent;
+  padding-left: 20;
+  color: white;
+  font-size: 16px;
+}
+.edit_profile_card_main_width_90 {
+  margin-top: 20;
+  width: 90%;
+}
+.edit_profile_card_main_width_90 h2 {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.edit_profile_card_input_field {
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  background-color: transparent;
+  border-color: white;
+  border: solid;
+  padding-left: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+.edit_profile_card_input_field input {
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+.edit_profile_card_set_alignment {
+  margin-left: 30px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.edit_profile_card_form_control_label {
+  color: white;
+  font-size: 20px;
+}
+.edit_profile_card_checkbox {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+}
+.edit_profile_card_button {
+  width: 280px;
+  height: 50px;
+  border-radius: 30px;
+  align-items: center;
+  background-color: #cea234;
+  color: "#000";
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* display: click ? "none":""; */
+}
+.edit_profile_card_button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}
+
+.tag_parent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .edit_profile_card_main,
+  .edit_profile_card_width_50 {
+    width: 90%;
+  }
+
+  .artist_profile_details_parent_input_field button {
+    width: 20%;
+  }
+}
+
+.p_number {
+  margin-bottom: 24px;
+}
+
+.p_number > input {
+  height: 48px;
+  width: 100% !important;
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  /* border-bottom: 1px solid rgba(42, 42, 42, 1) !important; */
+  font-style: normal;
+  font-weight: 100 !important;
+  font-size: 15px !important;
+  line-height: 26px;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 8px;
+  border-color: white !important;
+  border-style: solid !important;
+  /* color: white; */
+  /* padding: 10px !important; */
+  height: 45px !important;
+}
+
+.p_number > div {
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.p_number > div :nth-child(2) div {
+  background-color: #fff !important;
+  border: none !important;
+  color: #fff !important;
+}
+.p_number div:hover {
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.p_number > div ul {
+  background-color: #000 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.p_number > div ul::-webkit-scrollbar {
+  /* Styles for the scrollbar itself */
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.p_number > div ul::-webkit-scrollbar-thumb {
+  /* Styles for the scrollbar thumb */
+  background-color: #2a2a2a; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+.p_number > div ul::-webkit-scrollbar-thumb:hover {
+  /* Styles when hovering over the scrollbar thumb */
+  background-color: #fcc100; /* Color of the scrollbar thumb on hover */
+}
+
+.p_number > div ul::-webkit-scrollbar-thumb:active {
+  /* Styles when clicking on the scrollbar thumb */
+  background-color: #fcc100; /* Color of the scrollbar thumb on active/click */
+}
+
+.p_number > div ul li:hover {
+  background-color: #fcc100 !important;
+  border: none !important;
+  color: #fff !important;
+}
+.p_number > div ul li:focus {
+  background-color: #fcc100 !important;
+  border: none !important;
+  color: #fff !important;
+}
